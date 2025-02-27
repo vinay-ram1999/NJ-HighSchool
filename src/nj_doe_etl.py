@@ -9,6 +9,6 @@ data_dir = dict(sorted(data_dir.items()))
 
 for key, value in data_dir.items():
     file_path = [f"{value}/{file}" for file in os.listdir(value) if file.split(".")[-1] == "xlsx"][0]
-    frames = pl.read_excel(file_path)
+    frames = pl.read_excel(file_path, sheet_id=0)
     print(frames)
 
