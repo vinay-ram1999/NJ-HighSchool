@@ -1,0 +1,5 @@
+# Hide API keys
+.env
+
+*.pyc
+
