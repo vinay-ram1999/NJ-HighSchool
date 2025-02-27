@@ -1,6 +1,9 @@
 # Hide API keys and DB credentials
 .env
 
+.DS_Store
+*.zip
+
 # Python cache and virtual env
 *.pyc
 .venv/*
