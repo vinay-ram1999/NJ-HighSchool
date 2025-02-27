@@ -1,5 +1,6 @@
-# Hide API keys
+# Hide API keys and DB credentials
 .env
 
+# Python cache and virtual env
 *.pyc
-
+.venv/*
