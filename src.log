@@ -70,3 +70,514 @@
 2025-03-03 01:15:47,716 - WARNING - Could not determine dtype for column 15, falling back to string
 2025-03-03 01:15:55,867 - WARNING - Could not determine dtype for column 12, falling back to string
 2025-03-03 01:15:55,868 - WARNING - Could not determine dtype for column 13, falling back to string
+2025-03-03 02:37:03,071 - INFO - Header and Contact ---- Schema([('COUNTY_CODE', String), ('DISTRICT_CODE', String), ('SCHOOL_CODE', String), ('COUNTY_NAME', String), ('DISTRICT_NAME', String), ('SCHOOL_NAME', String), ('ADDRESS', String), ('CITY_STATE_ZIP', String), ('WEBSITE', String)])
+2025-03-03 02:37:03,152 - INFO - EnrollmentTrendsbyGrade ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Grade06', String), ('Grade07', String), ('Grade08', String), ('Grade09', String), ('Grade10', String), ('Grade11', String), ('Grade12', String)])
+2025-03-03 02:37:03,228 - INFO - EnrollmentTrendsByStudentGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Economically Disadvantaged Students', String), ('English Learners', String), ('Female', String), ('Homeless Students', String), ('Male', String), ('Migrant Students', String), ('Military-Connected Students', String), ('Students in Foster Care', String), ('Students with Disabilities', String)])
+2025-03-03 02:37:03,299 - INFO - EnrollmentByRacialEthnicGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('American Indian or Alaska Native', String), ('Asian', String), ('Black or African American', String), ('Hispanic', String), ('Native Hawaiian or Pacific Islander', String), ('Two or More Races', String), ('White', String)])
+2025-03-03 02:37:03,399 - INFO - EnrollmentByHomeLanguage ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('HomeLanguage', String), ('%OfStudents', Float64)])
+2025-03-03 02:37:03,482 - INFO - Header and Contact ---- Schema([('COUNTY_CODE', String), ('DISTRICT_CODE', String), ('SCHOOL_CODE', String), ('COUNTY_NAME', String), ('DISTRICT_NAME', String), ('SCHOOL_NAME', String), ('ADDRESS', String), ('CITY_STATE_ZIP', String), ('WEBSITE', String)])
+2025-03-03 02:37:03,566 - INFO - EnrollmentTrendsbyGrade ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Grade06', Int64), ('Grade07', Int64), ('Grade08', Int64), ('Grade09', Int64), ('Grade10', Int64), ('Grade11', Int64), ('Grade12', Int64)])
+2025-03-03 02:37:03,640 - INFO - EnrollmentTrendsByStudentGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Economically Disadvantaged Students', Float64), ('English Learners', Float64), ('Female', Float64), ('Homeless Students', Float64), ('Male', Float64), ('Migrant Students', Float64), ('Military-Connected Students', Float64), ('Students in Foster Care', Float64), ('Students with Disabilities', Float64)])
+2025-03-03 02:37:03,711 - INFO - EnrollmentByRacialEthnicGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('American Indian or Alaska Native', Float64), ('Asian', Float64), ('Black or African American', Float64), ('Hispanic', Float64), ('Native Hawaiian or Pacific Islander', Float64), ('Two or More Races', Float64), ('White', Float64)])
+2025-03-03 02:37:03,807 - INFO - EnrollmentByHomeLanguage ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('HomeLanguage', String), ('%OfStudents', Float64)])
+2025-03-03 02:37:03,892 - INFO - Header and Contact ---- Schema([('COUNTY_CODE', String), ('DISTRICT_CODE', String), ('SCHOOL_CODE', String), ('COUNTY_NAME', String), ('DISTRICT_NAME', String), ('SCHOOL_NAME', String), ('ADDRESS', String), ('CITY_STATE_ZIP', String), ('WEBSITE', String)])
+2025-03-03 02:37:03,973 - INFO - EnrollmentTrendsbyGrade ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Grade06', Int64), ('Grade07', Int64), ('Grade08', Int64), ('Grade09', Int64), ('Grade10', Int64), ('Grade11', Int64), ('Grade12', Int64)])
+2025-03-03 02:37:04,050 - INFO - EnrollmentTrendsByStudentGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Economically Disadvantaged Students', Float64), ('English Learners', Float64), ('Female', String), ('Homeless Students', Float64), ('Male', String), ('Migrant Students', Float64), ('Military-Connected Students', Float64), ('Students in Foster Care', Float64), ('Students with Disabilities', Float64)])
+2025-03-03 02:37:04,121 - INFO - EnrollmentByRacialEthnicGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('American Indian or Alaska Native', Float64), ('Asian', Float64), ('Black or African American', Float64), ('Hispanic', Float64), ('Native Hawaiian or Pacific Islander', Float64), ('Two or More Races', Float64), ('White', Float64)])
+2025-03-03 02:37:04,219 - INFO - EnrollmentByHomeLanguage ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('HomeLanguage', String), ('%OfStudents', Float64)])
+2025-03-03 02:37:04,310 - INFO - Header and Contact ---- Schema([('COUNTY_CODE', String), ('DISTRICT_CODE', String), ('SCHOOL_CODE', String), ('COUNTY_NAME', String), ('DISTRICT_NAME', String), ('SCHOOL_NAME', String), ('ADDRESS', String), ('CITY_STATE_ZIP', String), ('WEBSITE', String)])
+2025-03-03 02:37:04,394 - INFO - EnrollmentTrendsbyGrade ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Grade06', Int64), ('Grade07', Int64), ('Grade08', Int64), ('Grade09', Int64), ('Grade10', Int64), ('Grade11', Int64), ('Grade12', Int64)])
+2025-03-03 02:37:04,475 - INFO - EnrollmentTrendsByStudentGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Economically Disadvantaged Students', Float64), ('English Learners', Float64), ('Female', String), ('Homeless Students', Float64), ('Male', String), ('Migrant Students', Float64), ('Military-Connected Students', Float64), ('Students in Foster Care', Float64), ('Students with Disabilities', Float64)])
+2025-03-03 02:37:04,551 - INFO - EnrollmentByRacialEthnicGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('American Indian or Alaska Native', Float64), ('Asian', Float64), ('Black or African American', Float64), ('Hispanic', Float64), ('Native Hawaiian or Pacific Islander', Float64), ('Two or More Races', Float64), ('White', Float64)])
+2025-03-03 02:37:04,653 - INFO - EnrollmentByHomeLanguage ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('HomeLanguage', String), ('%OfStudents', Float64)])
+2025-03-03 02:37:04,749 - INFO - Header and Contact ---- Schema([('COUNTY_CODE', String), ('DISTRICT_CODE', String), ('SCHOOL_CODE', String), ('COUNTY_NAME', String), ('DISTRICT_NAME', String), ('SCHOOL_NAME', String), ('ADDRESS', String), ('CITY_STATE_ZIP', String), ('WEBSITE', String)])
+2025-03-03 02:37:04,835 - INFO - EnrollmentTrendsbyGrade ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Grade06', Int64), ('Grade07', Int64), ('Grade08', Int64), ('Grade09', Int64), ('Grade10', Int64), ('Grade11', Int64), ('Grade12', Int64)])
+2025-03-03 02:37:04,918 - INFO - EnrollmentTrendsByStudentGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('Economically Disadvantaged Students', Float64), ('English Learners', Float64), ('Female', String), ('Homeless Students', Float64), ('Male', String), ('Migrant Students', Float64), ('Military-Connected Students', Float64), ('Students in Foster Care', Float64), ('Students with Disabilities', Float64)])
+2025-03-03 02:37:04,996 - INFO - EnrollmentByRacialEthnicGroup ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('American Indian or Alaska Native', Float64), ('Asian', Float64), ('Black or African American', Float64), ('Hispanic', Float64), ('Native Hawaiian or Pacific Islander', Float64), ('Two or More Races', Float64), ('White', Float64)])
+2025-03-03 02:37:05,102 - INFO - EnrollmentByHomeLanguage ---- Schema([('CountyCode', String), ('DistrictCode', String), ('SchoolCode', String), ('HomeLanguage', String), ('%OfStudents', Float64)])
+2025-03-03 03:56:38,487 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 03:56:38,488 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:56:38,606 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:56:38,688 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:56:38,767 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:56:38,844 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:56:38,943 - INFO - ------- joining the sheets -------
+2025-03-03 03:56:38,944 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 03:56:38,944 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:56:39,025 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:56:39,109 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:56:39,184 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:56:39,256 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:56:39,351 - INFO - ------- joining the sheets -------
+2025-03-03 03:56:39,352 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 03:56:39,352 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:56:39,439 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:56:39,519 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:56:39,595 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:56:39,666 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:56:39,765 - INFO - ------- joining the sheets -------
+2025-03-03 03:56:39,765 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 03:56:39,765 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:56:39,857 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:56:39,942 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:56:40,026 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:56:40,152 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:56:40,256 - INFO - ------- joining the sheets -------
+2025-03-03 03:56:40,256 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 03:56:40,256 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:56:40,349 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:56:40,435 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:56:40,518 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:56:40,596 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:56:40,701 - INFO - ------- joining the sheets -------
+2025-03-03 03:56:40,701 - INFO - ------- merging all academic years data -------
+2025-03-03 03:58:27,634 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 03:58:27,635 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:27,760 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:27,841 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:27,921 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:27,999 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:28,102 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:28,103 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 03:58:28,103 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:28,184 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:28,269 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:28,344 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:28,415 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:28,518 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:28,519 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 03:58:28,519 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:28,609 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:28,693 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:28,770 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:28,843 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:28,941 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:28,941 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 03:58:28,942 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:29,044 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:29,134 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:29,217 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:29,293 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:29,397 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:29,397 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 03:58:29,398 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:29,489 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:29,577 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:29,660 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:29,738 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:29,844 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:29,844 - INFO - ------- merging all academic years data -------
+2025-03-03 03:58:43,212 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 03:58:43,212 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:43,342 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:43,425 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:43,506 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:43,577 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:43,682 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:43,683 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 03:58:43,683 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:43,765 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:43,850 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:43,925 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:44,001 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:44,098 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:44,098 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 03:58:44,098 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:44,182 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:44,263 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:44,339 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:44,411 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:44,509 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:44,510 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 03:58:44,510 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:44,601 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:44,687 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:44,767 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:44,848 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:44,953 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:44,953 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 03:58:44,953 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 03:58:45,045 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 03:58:45,149 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 03:58:45,241 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 03:58:45,328 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 03:58:45,442 - INFO - ------- joining the sheets -------
+2025-03-03 03:58:45,442 - INFO - ------- merging all academic years data -------
+2025-03-03 04:00:17,454 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:00:17,454 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:17,711 - INFO - Header and Contact schema --- ['COUNTY_CODE', 'DISTRICT_CODE', 'SCHOOL_CODE', 'COUNTY_NAME', 'DISTRICT_NAME', 'SCHOOL_NAME', 'ADDRESS', 'CITY_STATE_ZIP']
+2025-03-03 04:00:17,712 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:17,841 - INFO - EnrollmentTrendsbyGrade schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Grade06', 'Grade07', 'Grade08', 'Grade09', 'Grade10', 'Grade11', 'Grade12']
+2025-03-03 04:00:17,842 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:17,954 - INFO - EnrollmentTrendsByStudentGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Economically Disadvantaged Students', 'English Learners', 'Female', 'Homeless Students', 'Male', 'Migrant Students', 'Military-Connected Students', 'Students in Foster Care', 'Students with Disabilities']
+2025-03-03 04:00:17,954 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:18,047 - INFO - EnrollmentByRacialEthnicGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Hispanic', 'Native Hawaiian or Pacific Islander', 'Two or More Races', 'White']
+2025-03-03 04:00:18,047 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:18,166 - INFO - EnrollmentByHomeLanguage schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'HomeLanguage', '%OfStudents']
+2025-03-03 04:00:18,166 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:18,166 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:00:18,166 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:18,254 - INFO - Header and Contact schema --- ['COUNTY_CODE', 'DISTRICT_CODE', 'SCHOOL_CODE', 'COUNTY_NAME', 'DISTRICT_NAME', 'SCHOOL_NAME', 'ADDRESS', 'CITY_STATE_ZIP']
+2025-03-03 04:00:18,254 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:18,341 - INFO - EnrollmentTrendsbyGrade schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Grade06', 'Grade07', 'Grade08', 'Grade09', 'Grade10', 'Grade11', 'Grade12']
+2025-03-03 04:00:18,341 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:18,418 - INFO - EnrollmentTrendsByStudentGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Economically Disadvantaged Students', 'English Learners', 'Female', 'Homeless Students', 'Male', 'Migrant Students', 'Military-Connected Students', 'Students in Foster Care', 'Students with Disabilities']
+2025-03-03 04:00:18,418 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:18,494 - INFO - EnrollmentByRacialEthnicGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Hispanic', 'Native Hawaiian or Pacific Islander', 'Two or More Races', 'White']
+2025-03-03 04:00:18,495 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:18,593 - INFO - EnrollmentByHomeLanguage schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'HomeLanguage', '%OfStudents']
+2025-03-03 04:00:18,593 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:18,593 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:00:18,593 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:18,683 - INFO - Header and Contact schema --- ['COUNTY_CODE', 'DISTRICT_CODE', 'SCHOOL_CODE', 'COUNTY_NAME', 'DISTRICT_NAME', 'SCHOOL_NAME', 'ADDRESS', 'CITY_STATE_ZIP']
+2025-03-03 04:00:18,683 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:18,765 - INFO - EnrollmentTrendsbyGrade schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Grade06', 'Grade07', 'Grade08', 'Grade09', 'Grade10', 'Grade11', 'Grade12']
+2025-03-03 04:00:18,765 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:18,842 - INFO - EnrollmentTrendsByStudentGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Economically Disadvantaged Students', 'English Learners', 'Female', 'Homeless Students', 'Male', 'Migrant Students', 'Military-Connected Students', 'Students in Foster Care', 'Students with Disabilities']
+2025-03-03 04:00:18,842 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:18,965 - INFO - EnrollmentByRacialEthnicGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Hispanic', 'Native Hawaiian or Pacific Islander', 'Two or More Races', 'White']
+2025-03-03 04:00:18,965 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:19,066 - INFO - EnrollmentByHomeLanguage schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'HomeLanguage', '%OfStudents']
+2025-03-03 04:00:19,066 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:19,066 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:00:19,066 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:19,159 - INFO - Header and Contact schema --- ['COUNTY_CODE', 'DISTRICT_CODE', 'SCHOOL_CODE', 'COUNTY_NAME', 'DISTRICT_NAME', 'SCHOOL_NAME', 'ADDRESS', 'CITY_STATE_ZIP']
+2025-03-03 04:00:19,159 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:19,246 - INFO - EnrollmentTrendsbyGrade schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Grade06', 'Grade07', 'Grade08', 'Grade09', 'Grade10', 'Grade11', 'Grade12']
+2025-03-03 04:00:19,246 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:19,327 - INFO - EnrollmentTrendsByStudentGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Economically Disadvantaged Students', 'English Learners', 'Female', 'Homeless Students', 'Male', 'Migrant Students', 'Military-Connected Students', 'Students in Foster Care', 'Students with Disabilities']
+2025-03-03 04:00:19,327 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:19,403 - INFO - EnrollmentByRacialEthnicGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Hispanic', 'Native Hawaiian or Pacific Islander', 'Two or More Races', 'White']
+2025-03-03 04:00:19,403 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:19,508 - INFO - EnrollmentByHomeLanguage schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'HomeLanguage', '%OfStudents']
+2025-03-03 04:00:19,508 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:19,508 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:00:19,508 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:19,605 - INFO - Header and Contact schema --- ['COUNTY_CODE', 'DISTRICT_CODE', 'SCHOOL_CODE', 'COUNTY_NAME', 'DISTRICT_NAME', 'SCHOOL_NAME', 'ADDRESS', 'CITY_STATE_ZIP']
+2025-03-03 04:00:19,605 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:19,693 - INFO - EnrollmentTrendsbyGrade schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Grade06', 'Grade07', 'Grade08', 'Grade09', 'Grade10', 'Grade11', 'Grade12']
+2025-03-03 04:00:19,693 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:19,778 - INFO - EnrollmentTrendsByStudentGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'Economically Disadvantaged Students', 'English Learners', 'Female', 'Homeless Students', 'Male', 'Migrant Students', 'Military-Connected Students', 'Students in Foster Care', 'Students with Disabilities']
+2025-03-03 04:00:19,778 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:19,858 - INFO - EnrollmentByRacialEthnicGroup schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'American Indian or Alaska Native', 'Asian', 'Black or African American', 'Hispanic', 'Native Hawaiian or Pacific Islander', 'Two or More Races', 'White']
+2025-03-03 04:00:19,858 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:19,970 - INFO - EnrollmentByHomeLanguage schema --- ['CountyCode', 'DistrictCode', 'SchoolCode', 'HomeLanguage', '%OfStudents']
+2025-03-03 04:00:19,970 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:19,970 - INFO - ------- merging all academic years data -------
+2025-03-03 04:00:36,782 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:00:36,782 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:36,911 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:00:36,912 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:36,994 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:00:36,994 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:37,069 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:00:37,069 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:37,140 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:00:37,140 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:37,263 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:00:37,263 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:37,263 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:00:37,264 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:37,344 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:00:37,344 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:37,428 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:00:37,428 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:37,503 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:00:37,503 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:37,576 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:00:37,577 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:37,672 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:00:37,673 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:37,673 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:00:37,673 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:37,758 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:00:37,758 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:37,840 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:00:37,840 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:37,916 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:00:37,916 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:37,991 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:00:37,991 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:38,088 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:00:38,088 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:38,089 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:00:38,089 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:38,180 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:00:38,180 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:38,265 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:00:38,265 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:38,346 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:00:38,346 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:38,422 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:00:38,422 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:38,528 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:00:38,528 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:38,528 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:00:38,528 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:00:38,623 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:00:38,623 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:00:38,710 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:00:38,710 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:00:38,793 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:00:38,793 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:00:38,871 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:00:38,871 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:00:38,976 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:00:38,976 - INFO - ------- joining the sheets -------
+2025-03-03 04:00:38,976 - INFO - ------- merging all academic years data -------
+2025-03-03 04:03:31,949 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:03:31,950 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:03:32,105 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:03:32,105 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:03:32,188 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:03:32,188 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:03:32,270 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:03:32,270 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:03:32,343 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:03:32,343 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:03:32,453 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:03:32,453 - INFO - ------- joining the sheets -------
+2025-03-03 04:03:32,454 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:03:32,454 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:03:32,536 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:03:32,536 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:03:32,622 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:03:32,622 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:03:32,735 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:03:32,735 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:03:32,808 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:03:32,808 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:03:32,909 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:03:32,909 - INFO - ------- joining the sheets -------
+2025-03-03 04:03:32,909 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:03:32,910 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:03:32,996 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:03:32,996 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:03:33,077 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:03:33,077 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:03:33,156 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:03:33,156 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:03:33,228 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:03:33,228 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:03:33,326 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:03:33,326 - INFO - ------- joining the sheets -------
+2025-03-03 04:03:33,326 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:03:33,326 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:03:33,418 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:03:33,418 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:03:33,508 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:03:33,508 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:03:33,589 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:03:33,590 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:03:33,666 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:03:33,666 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:03:33,771 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:03:33,771 - INFO - ------- joining the sheets -------
+2025-03-03 04:03:33,771 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:03:33,771 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:03:33,865 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:03:33,865 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:03:33,951 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:03:33,952 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:03:34,034 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:03:34,034 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:03:34,112 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:03:34,113 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:03:34,218 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:03:34,219 - INFO - ------- joining the sheets -------
+2025-03-03 04:03:34,219 - INFO - ------- merging all academic years data -------
+2025-03-03 04:08:14,314 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:08:14,314 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:14,447 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:14,448 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:14,530 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:14,530 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:14,606 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:14,606 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:14,684 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:14,684 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:14,784 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:14,784 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:14,791 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:08:14,792 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:14,886 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:14,886 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:14,978 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:14,978 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:15,058 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:15,058 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:15,132 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:15,132 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:15,229 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:15,229 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:15,229 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:08:15,229 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:15,314 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:15,314 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:15,396 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:15,396 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:15,475 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:15,475 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:15,550 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:15,550 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:15,650 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:15,650 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:15,650 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:08:15,650 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:15,741 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:15,741 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:15,828 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:15,828 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:15,910 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:15,910 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:15,989 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:15,989 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:16,094 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:16,094 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:16,094 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:08:16,094 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:16,223 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:16,223 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:16,313 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:16,314 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:16,398 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:16,398 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:16,481 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:16,481 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:16,590 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:16,590 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:16,590 - INFO - ------- merging all academic years data -------
+2025-03-03 04:08:55,887 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:08:55,888 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:56,018 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:56,018 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:56,105 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:56,105 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:56,180 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:56,180 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:56,252 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:56,252 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:56,356 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:56,356 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:56,357 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:08:56,357 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:56,437 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:56,437 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:56,519 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:56,519 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:56,599 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:56,599 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:56,673 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:56,673 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:56,773 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:56,773 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:56,773 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:08:56,773 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:56,860 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:56,860 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:56,943 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:56,944 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:57,023 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:57,023 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:57,099 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:57,100 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:57,197 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:57,197 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:57,197 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:08:57,198 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:57,289 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:57,289 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:57,376 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:57,376 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:57,458 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:57,459 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:57,537 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:57,537 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:57,648 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:57,648 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:57,648 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:08:57,648 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:08:57,775 - INFO - Header and Contact schema --- ['county_code', 'district_code', 'school_code', 'county_name', 'district_name', 'school_name', 'address', 'city_state_zip']
+2025-03-03 04:08:57,776 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:08:57,864 - INFO - EnrollmentTrendsbyGrade schema --- ['county_code', 'district_code', 'school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12']
+2025-03-03 04:08:57,864 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:08:57,949 - INFO - EnrollmentTrendsByStudentGroup schema --- ['county_code', 'district_code', 'school_code', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities']
+2025-03-03 04:08:57,949 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:08:58,029 - INFO - EnrollmentByRacialEthnicGroup schema --- ['county_code', 'district_code', 'school_code', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white']
+2025-03-03 04:08:58,029 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:08:58,135 - INFO - EnrollmentByHomeLanguage schema --- ['county_code', 'district_code', 'school_code', 'home_language', 'pct_of_students']
+2025-03-03 04:08:58,135 - INFO - ------- joining the sheets -------
+2025-03-03 04:08:58,135 - INFO - ------- merging all academic years data -------
+2025-03-03 04:09:57,424 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:09:57,425 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:09:57,573 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:09:57,652 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:09:57,733 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:09:57,812 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:09:57,913 - INFO - ------- joining the sheets -------
+2025-03-03 04:09:57,914 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:09:57,914 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:09:57,995 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:09:58,077 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:09:58,155 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:09:58,229 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:09:58,330 - INFO - ------- joining the sheets -------
+2025-03-03 04:09:58,330 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:09:58,330 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:09:58,416 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:09:58,499 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:09:58,581 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:09:58,655 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:09:58,757 - INFO - ------- joining the sheets -------
+2025-03-03 04:09:58,757 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:09:58,757 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:09:58,857 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:09:58,946 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:09:59,030 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:09:59,109 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:09:59,223 - INFO - ------- joining the sheets -------
+2025-03-03 04:09:59,223 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:09:59,223 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:09:59,319 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:09:59,410 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:09:59,496 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:09:59,581 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:09:59,695 - INFO - ------- joining the sheets -------
+2025-03-03 04:09:59,696 - INFO - ------- merging all academic years data -------
+2025-03-03 04:13:04,190 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-03 04:13:04,191 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:13:04,430 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:13:04,511 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:13:04,585 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:13:04,657 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:13:04,756 - INFO - ------- joining the sheets -------
+2025-03-03 04:13:04,757 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-03-03 04:13:04,757 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:13:04,838 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:13:04,920 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:13:04,999 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:13:05,076 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:13:05,174 - INFO - ------- joining the sheets -------
+2025-03-03 04:13:05,175 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-03-03 04:13:05,175 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:13:05,260 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:13:05,342 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:13:05,420 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:13:05,500 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:13:05,600 - INFO - ------- joining the sheets -------
+2025-03-03 04:13:05,600 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-03-03 04:13:05,600 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:13:05,690 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:13:05,777 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:13:05,860 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:13:05,939 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:13:06,048 - INFO - ------- joining the sheets -------
+2025-03-03 04:13:06,049 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-03-03 04:13:06,049 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-03 04:13:06,152 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-03 04:13:06,242 - INFO - ------- extracting sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-03-03 04:13:06,327 - INFO - ------- extracting sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-03-03 04:13:06,442 - INFO - ------- extracting sheet 'EnrollmentByHomeLanguage' -------
+2025-03-03 04:13:06,550 - INFO - ------- joining the sheets -------
+2025-03-03 04:13:06,550 - INFO - ------- merging all academic years data -------
+2025-03-03 04:13:06,551 - INFO - ['county_name', 'district_name', 'school_name', 'address', 'city_state_zip', 'county_district_school_code', 'grade06', 'grade07', 'grade08', 'grade09', 'grade10', 'grade11', 'grade12', 'economically_disadvantaged', 'english_learners', 'female', 'homeless', 'male', 'migrant', 'military_connected', 'in_foster_care', 'with_disabilities', 'american_indian_or_alaska_native', 'asian', 'black_or_african_american', 'hispanic', 'native_hawaiian_or_pacific_islander', 'two_or_more_races', 'white', 'home_language', 'pct_of_students', 'academic_year']
