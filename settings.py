@@ -19,3 +19,4 @@ nj_doe_required_sheets = {
                                                          "output": ["county_code", "district_code", "school_code", "home_language", "pct_of_students"]}
 }
 
+non_string_dtype_cols = ["grade06", "grade07", "grade08", "grade09", "grade10", "grade11", "grade12", "economically_disadvantaged", "english_learners", "female", "homeless", "male", "migrant", "military_connected", "in_foster_care", "with_disabilities", "american_indian_or_alaska_native", "asian", "black_or_african_american", "hispanic", "native_hawaiian_or_pacific_islander", "two_or_more_races", "white", "pct_of_students"]
