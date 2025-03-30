@@ -2313,3 +2313,17 @@ Resolved plan until failure:
 2025-03-05 01:52:37,309 - INFO - merged data schema: Schema([('county_name', String), ('district_name', String), ('school_name', String), ('address', String), ('city_state_zip', String), ('county_district_school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64), ('home_language', String), ('pct_of_students', Float64), ('academic_year', String)])
 2025-03-05 01:52:37,310 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/merged_data_schema.json' -------
 2025-03-05 01:52:37,369 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/merged_data_export.csv' -------
+2025-03-30 15:54:00,208 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-03-30 15:54:00,209 - INFO - ------- extracting sheet 'Header and Contact' -------
+2025-03-30 15:54:01,351 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('address', String), ('city_state_zip', String)])
+2025-03-30 15:54:01,351 - INFO - updated schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('address', String), ('city_state_zip', String)])
+2025-03-30 15:54:01,351 - INFO - ------- extracting sheet 'EnrollmentTrendsbyGrade' -------
+2025-03-30 17:44:17,133 - ERROR - (pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'academic_year' used in key specification without a key length")
+[SQL: ALTER TABLE nj_doe ADD PRIMARY KEY (academic_year, county_district_school_code);]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-30 18:06:27,281 - INFO - ------- loaded '.env' variables -------
+2025-03-30 18:06:27,633 - INFO - ------- writing data to MySQL database -------
+2025-03-30 18:06:37,899 - INFO - 51141 inserted into nj_doe table
+2025-03-30 18:08:03,381 - INFO - ------- loaded '.env' variables -------
+2025-03-30 18:08:03,728 - INFO - ------- writing data to MySQL database -------
+2025-03-30 18:08:12,554 - INFO - 51141 rows inserted into vg472.nj_doe table
