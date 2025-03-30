@@ -48,6 +48,16 @@ try:
             lf = lf.with_columns(pl.concat_str([col("county_code"), col("district_code"), col("school_code")], separator="-")
                                     .alias("county_district_school_code")
                                 ).drop("county_code", "district_code", "school_code")
+            
+            if "city_state_zip" in lf_schema.names():
+                lf = lf.with_columns(col("city_state_zip").str.split(" NJ ")
+                                                          .list.to_struct(n_field_strategy='max_width', fields=["city", "zip"])
+                                                          .struct.unnest(),
+                                    pl.lit("NJ").alias("state")).drop("city_state_zip")
+                
+                lf = lf.with_columns(col("zip").str.split("-")
+                                               .list.to_struct(n_field_strategy='max_width', fields=["zipcode", "zipcode_extn"])
+                                               .struct.unnest()).drop("zip")
             year_lfs += [lf]
         logging.info("------- joining the sheets -------")
         
@@ -64,7 +74,7 @@ try:
     final_schema = final_lf.collect_schema()
     logging.info(f"merged data schema: {final_schema}")
     
-    final_schema = {a:b.__name__ for a,b in final_schema.to_python().items()}
+    final_schema = {a:b.__repr__() for a,b in final_schema.items()}
     with open(f"{nj_doe_data_dir}/merged_data_schema.json", 'w') as file:
         json.dump(final_schema, file, indent=4)
     logging.info(f"------- exported merged data schema to '{nj_doe_data_dir}/merged_data_schema.json' -------")

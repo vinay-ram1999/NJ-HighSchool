@@ -2,6 +2,7 @@ from sqlalchemy import create_engine
 import polars as pl
 
 import logging
+import json
 import os
 
 from settings import nj_doe_data_dir
@@ -20,7 +21,11 @@ mysql_uri = f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PWD}@{MYSQL_HOST}:{MYSQL_PORT}
 try:
     mysql_engine = create_engine(mysql_uri)
 
-    df = pl.read_csv(f"{nj_doe_data_dir}/merged_data_export.csv", infer_schema_length=None)
+    with open(f"{nj_doe_data_dir}/merged_data_schema.json", "r") as file:
+        schema: dict = json.load(file)
+    schema_dict = {a:getattr(pl,b) for a,b in schema.items()}
+
+    df = pl.read_csv(f"{nj_doe_data_dir}/merged_data_export.csv", infer_schema_length=0, schema=schema_dict)
     logging.info("------- writing data to MySQL database -------")
     
     nrows = df.write_database(MYSQL_TABLE_NAME, connection=mysql_engine, if_table_exists='replace')

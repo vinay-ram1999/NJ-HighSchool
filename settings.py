@@ -4,7 +4,7 @@ nj_doe_data_dir = os.path.abspath("./nj_doe/")
 
 nj_doe_required_sheets = {
                             "Header and Contact": {"input": ["COUNTY_CODE", "DISTRICT_CODE", "SCHOOL_CODE", "COUNTY_NAME", "DISTRICT_NAME", "SCHOOL_NAME", "ADDRESS", "CITY_STATE_ZIP"],
-                                                   "output": ["county_code", "district_code", "school_code", "county_name", "district_name", "school_name", "address", "city_state_zip"]}, 
+                                                   "output": ["county_code", "district_code", "school_code", "county_name", "district_name", "school_name", "street_address", "city_state_zip"]}, 
                             "EnrollmentTrendsbyGrade": {"input": ["CountyCode", "DistrictCode", "SchoolCode", "Grade06", "Grade07", "Grade08", "Grade09", "Grade10", "Grade11", "Grade12"],
                                                         "output": ["county_code", "district_code", "school_code", "grade06", "grade07", "grade08", "grade09", "grade10", "grade11", "grade12"]}, 
                             "EnrollmentTrendsByStudentGroup": {"input": ["CountyCode", "DistrictCode", "SchoolCode", "Economically Disadvantaged Students", "English Learners", "Female", "Homeless Students", "Male", "Migrant Students", "Military-Connected Students", "Students in Foster Care", "Students with Disabilities"],
