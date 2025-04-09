@@ -1,0 +1,11 @@
+{
+    "county_name": "String",
+    "district_name": "String",
+    "school_name": "String",
+    "street_address": "String",
+    "city": "String",
+    "state": "String",
+    "zipcode": "String",
+    "zipcode_extn": "String",
+    "county_district_school_code": "String"
+}

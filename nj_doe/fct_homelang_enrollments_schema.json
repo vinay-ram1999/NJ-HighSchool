@@ -1,0 +1,6 @@
+{
+    "home_language": "String",
+    "pct_of_students": "Float64",
+    "county_district_school_code": "String",
+    "academic_year": "String"
+}

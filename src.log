@@ -2998,3 +2998,296 @@ Resolved plan until failure:
 2025-03-31 17:52:56,861 - INFO - ------- loaded '.env' variables -------
 2025-03-31 17:52:57,366 - INFO - ------- writing data to MySQL database -------
 2025-03-31 17:53:06,260 - INFO - 51141 rows inserted into project.nj_doe table
+2025-04-08 23:08:01,912 - INFO - ------- loaded '.env' variables -------
+2025-04-08 23:08:03,063 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-04-08 23:08:03,063 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:08:04,202 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:08:04,203 - ERROR - unhashable type: 'dict'
+2025-04-08 23:09:12,585 - INFO - ------- loaded '.env' variables -------
+2025-04-08 23:09:12,806 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-04-08 23:09:12,806 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:09:13,037 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:09:13,038 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:09:13,120 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', String), ('grade07', String), ('grade08', String), ('grade09', String), ('grade10', String), ('grade11', String), ('grade12', String)])
+2025-04-08 23:09:13,120 - INFO - 'grade06' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,121 - INFO - 'grade07' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,121 - INFO - 'grade08' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,121 - INFO - 'grade09' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,121 - INFO - 'grade10' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,121 - INFO - 'grade11' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,122 - INFO - 'grade12' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,122 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:09:13,122 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:09:13,201 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', String), ('english_learners', String), ('female', String), ('homeless', String), ('male', String), ('migrant', String), ('military_connected', String), ('in_foster_care', String), ('with_disabilities', String)])
+2025-04-08 23:09:13,201 - INFO - 'economically_disadvantaged' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'english_learners' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'homeless' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'migrant' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'military_connected' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'in_foster_care' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - 'with_disabilities' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,201 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:09:13,202 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:09:13,284 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', String), ('asian', String), ('black_or_african_american', String), ('hispanic', String), ('native_hawaiian_or_pacific_islander', String), ('two_or_more_races', String), ('white', String)])
+2025-04-08 23:09:13,284 - INFO - 'american_indian_or_alaska_native' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,284 - INFO - 'asian' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,284 - INFO - 'black_or_african_american' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,284 - INFO - 'hispanic' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,284 - INFO - 'native_hawaiian_or_pacific_islander' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,284 - INFO - 'two_or_more_races' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,284 - INFO - 'white' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:09:13,285 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:09:13,285 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:09:13,386 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:09:13,386 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:09:13,386 - ERROR - 'LazyFrame' object is not subscriptable (aside from slicing)
+
+Use `select()` or `filter()` instead.
+2025-04-08 23:12:34,137 - INFO - ------- loaded '.env' variables -------
+2025-04-08 23:12:34,352 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-04-08 23:12:34,352 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:12:34,600 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:12:34,601 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:12:34,682 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', String), ('grade07', String), ('grade08', String), ('grade09', String), ('grade10', String), ('grade11', String), ('grade12', String)])
+2025-04-08 23:12:34,682 - INFO - 'grade06' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - 'grade07' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - 'grade08' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - 'grade09' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - 'grade10' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - 'grade11' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - 'grade12' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,683 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:12:34,683 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:12:34,758 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', String), ('english_learners', String), ('female', String), ('homeless', String), ('male', String), ('migrant', String), ('military_connected', String), ('in_foster_care', String), ('with_disabilities', String)])
+2025-04-08 23:12:34,758 - INFO - 'economically_disadvantaged' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'english_learners' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'homeless' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'migrant' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'military_connected' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'in_foster_care' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - 'with_disabilities' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,759 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:34,759 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:12:34,832 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', String), ('asian', String), ('black_or_african_american', String), ('hispanic', String), ('native_hawaiian_or_pacific_islander', String), ('two_or_more_races', String), ('white', String)])
+2025-04-08 23:12:34,832 - INFO - 'american_indian_or_alaska_native' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,832 - INFO - 'asian' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,832 - INFO - 'black_or_african_american' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,832 - INFO - 'hispanic' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,832 - INFO - 'native_hawaiian_or_pacific_islander' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,832 - INFO - 'two_or_more_races' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,832 - INFO - 'white' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:34,833 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:34,833 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:12:34,936 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:34,936 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:34,936 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:12:34,937 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-04-08 23:12:34,937 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:12:35,025 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:12:35,025 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:12:35,111 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:12:35,112 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:12:35,112 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:12:35,187 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:35,187 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:35,187 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:12:35,258 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:35,258 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:35,258 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:12:35,356 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:35,356 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:35,356 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:12:35,356 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-04-08 23:12:35,356 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:12:35,442 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:12:35,442 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:12:35,522 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:12:35,523 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:12:35,523 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:12:35,600 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', String), ('homeless', Float64), ('male', String), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:35,600 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:35,600 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:35,600 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:35,600 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:12:35,673 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:35,673 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:35,673 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:12:35,771 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:35,771 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:35,771 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:12:35,771 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-04-08 23:12:35,771 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:12:35,861 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:12:35,861 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:12:35,947 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:12:35,947 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:12:35,947 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:12:36,028 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', String), ('homeless', Float64), ('male', String), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:36,028 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:36,028 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:36,028 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:36,028 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:12:36,105 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:36,105 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:36,105 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:12:36,215 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:36,215 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:36,215 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:12:36,215 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-04-08 23:12:36,215 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:12:36,309 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:12:36,309 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:12:36,397 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:12:36,397 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:12:36,397 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:12:36,480 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', String), ('homeless', Float64), ('male', String), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:36,480 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:36,480 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:12:36,480 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:12:36,480 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:12:36,560 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:36,560 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:12:36,560 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:12:36,666 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:36,666 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:12:36,666 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:12:36,666 - INFO - ------- merging all academic years data for dim table -------
+2025-04-08 23:12:36,666 - INFO - ------- de-duplicating the table -------
+2025-04-08 23:12:36,668 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/dim_schools_schema.json' -------
+2025-04-08 23:12:36,683 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/dim_schools.csv' -------
+2025-04-08 23:12:36,684 - INFO - ------- merging all academic years data for one-to-one facts -------
+2025-04-08 23:12:36,684 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_enrollments_schema.json' -------
+2025-04-08 23:12:36,696 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_enrollments.csv' -------
+2025-04-08 23:12:36,696 - INFO - ------- merging all academic years data for one-to-many facts -------
+2025-04-08 23:12:36,697 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_homelang_enrollments_schema.json' -------
+2025-04-08 23:12:36,701 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_homelang_enrollments.csv' -------
+2025-04-08 23:18:31,947 - INFO - ------- loaded '.env' variables -------
+2025-04-08 23:18:32,179 - INFO - ------- extracting 2018-2019 academic year data -------
+2025-04-08 23:18:32,180 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:18:32,444 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:18:32,448 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:18:32,532 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', String), ('grade07', String), ('grade08', String), ('grade09', String), ('grade10', String), ('grade11', String), ('grade12', String)])
+2025-04-08 23:18:32,532 - INFO - 'grade06' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,534 - INFO - 'grade07' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,534 - INFO - 'grade08' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,534 - INFO - 'grade09' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,534 - INFO - 'grade10' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,534 - INFO - 'grade11' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,534 - INFO - 'grade12' in 'EnrollmentTrendsbyGrade' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,535 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:18:32,535 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:18:32,610 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', String), ('english_learners', String), ('female', String), ('homeless', String), ('male', String), ('migrant', String), ('military_connected', String), ('in_foster_care', String), ('with_disabilities', String)])
+2025-04-08 23:18:32,611 - INFO - 'economically_disadvantaged' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'english_learners' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'homeless' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'migrant' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'military_connected' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'in_foster_care' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - 'with_disabilities' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,611 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:32,611 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:18:32,683 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', String), ('asian', String), ('black_or_african_american', String), ('hispanic', String), ('native_hawaiian_or_pacific_islander', String), ('two_or_more_races', String), ('white', String)])
+2025-04-08 23:18:32,683 - INFO - 'american_indian_or_alaska_native' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - 'asian' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - 'black_or_african_american' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - 'hispanic' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - 'native_hawaiian_or_pacific_islander' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - 'two_or_more_races' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - 'white' in 'EnrollmentByRacialEthnicGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:32,683 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:32,683 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:18:32,786 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:32,786 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:32,786 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:18:32,786 - INFO - ------- extracting 2019-2020 academic year data -------
+2025-04-08 23:18:32,786 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:18:32,879 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:18:32,879 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:18:32,966 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:18:32,966 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:18:32,966 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:18:33,041 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:33,042 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:33,042 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:18:33,113 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:33,113 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:33,113 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:18:33,209 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:33,209 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:33,210 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:18:33,210 - INFO - ------- extracting 2020-2021 academic year data -------
+2025-04-08 23:18:33,210 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:18:33,299 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:18:33,299 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:18:33,412 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:18:33,412 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:18:33,413 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:18:33,493 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', String), ('homeless', Float64), ('male', String), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:33,493 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:33,493 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:33,493 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:33,493 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:18:33,572 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:33,572 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:33,572 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:18:33,676 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:33,676 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:33,676 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:18:33,676 - INFO - ------- extracting 2021-2022 academic year data -------
+2025-04-08 23:18:33,676 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:18:33,767 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:18:33,767 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:18:33,854 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:18:33,854 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:18:33,854 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:18:33,966 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', String), ('homeless', Float64), ('male', String), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:33,966 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:33,967 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:33,967 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:33,967 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:18:34,044 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:34,044 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:34,044 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:18:34,157 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:34,157 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:34,157 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:18:34,157 - INFO - ------- extracting 2022-2023 academic year data -------
+2025-04-08 23:18:34,157 - INFO - ------- extracting dim sheet 'Header and Contact' -------
+2025-04-08 23:18:34,252 - INFO - current schema of 'Header and Contact': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('county_name', String), ('district_name', String), ('school_name', String), ('street_address', String), ('city_state_zip', String)])
+2025-04-08 23:18:34,252 - INFO - ------- extracting fact sheet 'EnrollmentTrendsbyGrade' -------
+2025-04-08 23:18:34,340 - INFO - current schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Int64), ('grade07', Int64), ('grade08', Int64), ('grade09', Int64), ('grade10', Int64), ('grade11', Int64), ('grade12', Int64)])
+2025-04-08 23:18:34,340 - INFO - updated schema of 'EnrollmentTrendsbyGrade': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('grade06', Float64), ('grade07', Float64), ('grade08', Float64), ('grade09', Float64), ('grade10', Float64), ('grade11', Float64), ('grade12', Float64)])
+2025-04-08 23:18:34,340 - INFO - ------- extracting fact sheet 'EnrollmentTrendsByStudentGroup' -------
+2025-04-08 23:18:34,426 - INFO - current schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', String), ('homeless', Float64), ('male', String), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:34,426 - INFO - 'female' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:34,426 - INFO - 'male' in 'EnrollmentTrendsByStudentGroup' is casted as a String; Performing the work around;
+2025-04-08 23:18:34,426 - INFO - updated schema of 'EnrollmentTrendsByStudentGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('economically_disadvantaged', Float64), ('english_learners', Float64), ('female', Float64), ('homeless', Float64), ('male', Float64), ('migrant', Float64), ('military_connected', Float64), ('in_foster_care', Float64), ('with_disabilities', Float64)])
+2025-04-08 23:18:34,426 - INFO - ------- extracting fact sheet 'EnrollmentByRacialEthnicGroup' -------
+2025-04-08 23:18:34,504 - INFO - current schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:34,504 - INFO - updated schema of 'EnrollmentByRacialEthnicGroup': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('american_indian_or_alaska_native', Float64), ('asian', Float64), ('black_or_african_american', Float64), ('hispanic', Float64), ('native_hawaiian_or_pacific_islander', Float64), ('two_or_more_races', Float64), ('white', Float64)])
+2025-04-08 23:18:34,504 - INFO - ------- extracting fact sheet 'EnrollmentByHomeLanguage' -------
+2025-04-08 23:18:34,611 - INFO - current schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:34,611 - INFO - updated schema of 'EnrollmentByHomeLanguage': Schema([('county_code', String), ('district_code', String), ('school_code', String), ('home_language', String), ('pct_of_students', Float64)])
+2025-04-08 23:18:34,611 - INFO - ------- joining one-to-one fact sheets -------
+2025-04-08 23:18:34,611 - INFO - ------- merging all academic years data for dim table -------
+2025-04-08 23:18:34,611 - INFO - ------- de-duplicating dim_schools table -------
+2025-04-08 23:18:34,613 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/dim_schools_schema.json' -------
+2025-04-08 23:18:34,630 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/dim_schools.csv' -------
+2025-04-08 23:18:34,678 - INFO - ------- writing data to MySQL database -------
+2025-04-08 23:18:36,974 - INFO - 2582 rows inserted into project.dim_schools table
+2025-04-08 23:18:36,975 - INFO - ------- merging all academic years data for one-to-one facts -------
+2025-04-08 23:18:36,980 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_enrollments_schema.json' -------
+2025-04-08 23:18:37,006 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_enrollments.csv' -------
+2025-04-08 23:18:37,015 - INFO - ------- writing data to MySQL database -------
+2025-04-08 23:18:39,110 - INFO - 12531 rows inserted into project.fct_enrollments table
+2025-04-08 23:18:39,110 - INFO - ------- merging all academic years data for one-to-many facts -------
+2025-04-08 23:18:39,113 - INFO - ------- exported merged data schema to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_homelang_enrollments_schema.json' -------
+2025-04-08 23:18:39,123 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_homelang_enrollments.csv' -------
+2025-04-08 23:18:39,128 - INFO - ------- writing data to MySQL database -------
+2025-04-08 23:18:41,475 - INFO - 51138 rows inserted into project.fct_homelang_enrollments table
