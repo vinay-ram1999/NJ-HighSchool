@@ -3291,3 +3291,24 @@ Use `select()` or `filter()` instead.
 2025-04-08 23:18:39,123 - INFO - ------- all academic years data is exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/nj_doe/fct_homelang_enrollments.csv' -------
 2025-04-08 23:18:39,128 - INFO - ------- writing data to MySQL database -------
 2025-04-08 23:18:41,475 - INFO - 51138 rows inserted into project.fct_homelang_enrollments table
+2025-04-13 23:01:47,023 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:01:49,120 - DEBUG - matplotlib data path: /Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/matplotlib/mpl-data
+2025-04-13 23:01:49,136 - DEBUG - CONFIGDIR=/Users/nebula/.matplotlib
+2025-04-13 23:01:49,137 - DEBUG - interactive is False
+2025-04-13 23:01:49,137 - DEBUG - platform is darwin
+2025-04-13 23:01:49,185 - DEBUG - CACHEDIR=/Users/nebula/.matplotlib
+2025-04-13 23:01:49,188 - DEBUG - Using fontManager instance from /Users/nebula/.matplotlib/fontlist-v390.json
+2025-04-13 23:02:53,788 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:02:53,917 - DEBUG - matplotlib data path: /Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/matplotlib/mpl-data
+2025-04-13 23:02:53,922 - DEBUG - CONFIGDIR=/Users/nebula/.matplotlib
+2025-04-13 23:02:53,923 - DEBUG - interactive is False
+2025-04-13 23:02:53,923 - DEBUG - platform is darwin
+2025-04-13 23:02:53,957 - DEBUG - CACHEDIR=/Users/nebula/.matplotlib
+2025-04-13 23:02:53,959 - DEBUG - Using fontManager instance from /Users/nebula/.matplotlib/fontlist-v390.json
+2025-04-13 23:04:19,368 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:09:42,996 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:17:03,557 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:17:28,095 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:34:48,510 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:40:06,667 - INFO - ------- loaded '.env' variables -------
+2025-04-13 23:41:55,454 - INFO - ------- loaded '.env' variables -------
