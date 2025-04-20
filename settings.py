@@ -1,6 +1,7 @@
 import os
 
 nj_doe_data_dir = os.path.abspath("./nj_doe/")
+gs_data_dir = os.path.abspath("./great_schools/")
 
 nj_doe_dim_sheets = {
                     "Header and Contact": {"input": ["COUNTY_CODE", "DISTRICT_CODE", "SCHOOL_CODE", "COUNTY_NAME", "DISTRICT_NAME", "SCHOOL_NAME", "ADDRESS", "CITY_STATE_ZIP"],
