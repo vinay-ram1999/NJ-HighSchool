@@ -10992,3 +10992,29 @@ Stacktrace:
 2025-04-20 02:53:59,798 - INFO - ----- fetching 'https://www.greatschools.org/new-jersey/caldwell/3664-Childrens-House-Creative-Center/' -----
 2025-04-20 02:54:00,336 - INFO - exiting gracefully...
 2025-04-20 02:54:00,501 - INFO - ----- ratings data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/gs_school_ratings.csv' -----
+2025-04-20 03:05:37,021 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:06:48,674 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:08:17,714 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:08:44,354 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:09:45,449 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:10:34,399 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:22:38,297 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:22:38,833 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-20 03:22:38,853 - INFO - ----- gs_schools shape: (3098, 4) -----
+2025-04-20 03:22:38,854 - INFO - ----- filtered gs_schools shape: (2168, 4) -----
+2025-04-20 03:22:38,859 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-20 03:22:44,741 - INFO - ----- fuzzy merged data shape: (1581, 13) -----
+2025-04-20 03:22:44,742 - INFO - ----- duplicates shape: (14, 8) -----
+2025-04-20 03:22:44,744 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_dups.csv' -----
+2025-04-20 03:22:44,744 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-20 03:22:44,755 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_schools.csv' -----
+2025-04-20 03:23:48,222 - INFO - ------- loaded '.env' variables -------
+2025-04-20 03:23:48,683 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-20 03:23:48,703 - INFO - ----- gs_schools shape: (3098, 4) -----
+2025-04-20 03:23:48,703 - INFO - ----- filtered gs_schools shape: (2168, 4) -----
+2025-04-20 03:23:48,708 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-20 03:23:54,486 - INFO - ----- fuzzy merged data shape: (1581, 13) -----
+2025-04-20 03:23:54,487 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-20 03:23:54,489 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_dups.csv' -----
+2025-04-20 03:23:54,489 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-20 03:23:54,499 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_schools.csv' -----
