@@ -25,11 +25,11 @@ logging.info(f"----- gs_schools shape: {gs_schools.shape} -----")
 gs_schools.dropna(subset=["rating"], inplace=True)
 logging.info(f"----- filtered gs_schools shape: {gs_schools.shape} -----")
 
-gs_schools["name_enc"] = gs_schools["gs_school_name"].str.upper().replace(r'[ ,.-]', '', regex=True)
-gs_schools["address_enc"] = gs_schools["gs_school_address"].str.upper().replace(r'[ ,.-]', '', regex=True)
+gs_schools["gs_name_enc"] = gs_schools["gs_school_name"].str.upper().replace(r'[ ,.-]', '', regex=True)
+gs_schools["gs_address_enc"] = gs_schools["gs_school_address"].str.upper().replace(r'[ ,.-]', '', regex=True)
 
-gs_name_enc = gs_schools["name_enc"].tolist()
-gs_address_enc = gs_schools["address_enc"].tolist()
+gs_name_enc = gs_schools["gs_name_enc"].tolist()
+gs_address_enc = gs_schools["gs_address_enc"].tolist()
 
 logging.info(f"----- NAME_THRESHOLD = {NAME_THRESHOLD}; ADDRESS_THRESHOLD = {ADDRESS_THRESHOLD} -----")
 
