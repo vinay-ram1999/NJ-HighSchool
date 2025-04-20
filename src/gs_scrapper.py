@@ -7,6 +7,7 @@ from collections import defaultdict
 from settings import gs_data_dir
 import logging
 import time
+import sys
 
 options = Options()
 options.add_argument('--headless')
@@ -40,6 +41,21 @@ try:
                 schools_dict["gs_school_name"] += [name_list[0].text] if name_list else [None]
                 schools_dict["gs_school_address"] += [address_list[0].text] if address_list else [None]
                 schools_dict["gs_school_link"] += [name_list[0].get_attribute("href")] if name_list else [None]
+
+                summary = school.find_elements(By.CSS_SELECTOR, ".tipso_style")
+
+                if summary:
+                    children = summary[0].find_elements(By.XPATH, "./div")
+                    
+                    if len(children) == 2:
+                        rating = children[0].text.split("\n/")
+                        schools_dict["rating_band"] += [children[1].text]
+                        schools_dict["rating"] += [int(rating[0])]
+                        logging.info(f"----- rating: {int(rating[0])}; rating_band: '{children[1].text}' extracted -----")
+                    else:
+                        schools_dict["rating_band"] += [None]
+                        schools_dict["rating"] += [None]
+                        logging.info(f"----- summary rating not found -----")
         else:
             logging.info("------- no more schools found -------")
             break
@@ -49,8 +65,8 @@ try:
     gs_schools = pd.DataFrame(schools_dict)
     logging.info(f"------- extracted {gs_schools.shape[0]} schools data -------")
 
-    gs_schools.to_csv(f"{gs_data_dir}/gs_school_links.csv", index=False)
-    logging.info(f"------- data exported to '{gs_data_dir}/gs_school_links.csv' -------")
+    gs_schools.to_csv(f"{gs_data_dir}/gs_school_ratings.csv", index=False)
+    logging.info(f"------- data exported to '{gs_data_dir}/gs_school_ratings.csv' -------")
 
     driver.quit()
 except Exception as e:
