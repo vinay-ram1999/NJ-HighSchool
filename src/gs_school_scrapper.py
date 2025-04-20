@@ -19,7 +19,7 @@ driver = webdriver.Chrome(options=options)
 fname = f"{gs_data_dir}/gs_school_ratings.csv"
 flag = True if os.path.exists(fname) else False
 
-gs_schools = pd.read_csv(f"{gs_data_dir}/gs_school_links.csv", dtype=str)
+gs_schools = pd.read_csv(f"{gs_data_dir}/gs_school_ratings.csv", dtype=str)
 
 rows = []
 
