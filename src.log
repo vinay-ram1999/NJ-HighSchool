@@ -19606,3 +19606,48 @@ Stacktrace:
 2025-04-20 05:00:32,230 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_dups.csv' -----
 2025-04-20 05:00:32,230 - INFO - ----- duplicates are not dropped (manual check required) -----
 2025-04-20 05:00:32,243 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_schools.csv' -----
+2025-04-24 20:52:19,070 - INFO - ------- loaded '.env' variables -------
+2025-04-24 20:52:22,068 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-24 20:52:22,336 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:15:43,860 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:15:44,775 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-24 21:15:44,876 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:16:43,229 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:17:55,529 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:18:08,040 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:21:07,654 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:21:49,390 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:28:50,472 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:34:03,640 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:34:04,447 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-24 21:34:04,528 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:35:41,260 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:37:21,222 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:39:13,870 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:40:53,897 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:41:14,772 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:41:15,502 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-24 21:41:15,589 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:41:30,895 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:41:49,423 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:44:17,586 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:44:38,927 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:44:39,653 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-24 21:44:39,725 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:46:07,149 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:46:15,232 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:46:37,932 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:46:56,295 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:47:29,528 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:47:47,249 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:47:57,371 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:48:04,741 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:48:20,969 - INFO - ------- loaded '.env' variables -------
+2025-04-24 21:48:21,700 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-24 21:48:21,774 - INFO - ------- loaded '.env' variables -------
