@@ -19651,3 +19651,1107 @@ Stacktrace:
 2025-04-24 21:48:21,700 - INFO - Dash is running on http://127.0.0.1:8050/
 
 2025-04-24 21:48:21,774 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:38:48,407 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:38:50,001 - INFO - Data preprocessing completed.
+2025-04-29 18:38:50,027 - INFO - 
+Dash app starting...
+2025-04-29 18:38:50,027 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 18:38:50,027 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 18:38:57,031 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:38:57,641 - INFO - Data preprocessing completed.
+2025-04-29 18:38:57,649 - INFO - 
+Dash app starting...
+2025-04-29 18:38:57,649 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 18:45:48,131 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:45:48,987 - INFO - Data preprocessing completed.
+2025-04-29 18:45:48,996 - INFO - 
+Dash app starting...
+2025-04-29 18:45:48,996 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 18:48:32,702 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:48:33,482 - INFO - Data preprocessing completed.
+2025-04-29 18:48:33,491 - INFO - 
+Dash app starting...
+2025-04-29 18:48:33,492 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 18:49:19,459 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:49:20,117 - INFO - Data preprocessing completed.
+2025-04-29 18:49:20,127 - INFO - Dash app starting...
+2025-04-29 18:49:20,127 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 18:51:38,418 - INFO - ------- loaded '.env' variables -------
+2025-04-29 18:51:39,102 - INFO - Data preprocessing completed.
+2025-04-29 18:51:39,112 - INFO - Dash app starting...
+2025-04-29 18:51:39,112 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:06:30,606 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:06:31,531 - INFO - Data preprocessing completed.
+2025-04-29 19:06:31,540 - INFO - Dash app starting...
+2025-04-29 19:06:31,541 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:11:30,130 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:11:30,854 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-29 19:11:30,881 - INFO - ----- gs_schools shape: (7865, 5) -----
+2025-04-29 19:11:30,882 - INFO - ----- filtered gs_schools shape: (2168, 5) -----
+2025-04-29 19:11:30,885 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-29 19:11:36,555 - INFO - ----- fuzzy merged data shape: (1581, 16) -----
+2025-04-29 19:11:36,557 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-29 19:11:36,559 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merge_dups.csv' -----
+2025-04-29 19:11:36,559 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-29 19:11:36,571 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_dim_schools.csv' -----
+2025-04-29 19:15:33,429 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:15:33,935 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-29 19:15:33,961 - INFO - ----- gs_schools shape: (7865, 5) -----
+2025-04-29 19:15:33,962 - INFO - ----- filtered gs_schools shape: (2168, 5) -----
+2025-04-29 19:15:33,966 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-29 19:15:39,631 - INFO - ----- fuzzy merged data shape: (1581, 16) -----
+2025-04-29 19:15:39,636 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-29 19:15:39,638 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merge_dups.csv' -----
+2025-04-29 19:15:39,638 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-29 19:15:39,649 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_dim_schools.csv' -----
+2025-04-29 19:17:11,124 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:17:11,621 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-29 19:17:11,648 - INFO - ----- gs_schools shape: (7865, 5) -----
+2025-04-29 19:17:11,649 - INFO - ----- filtered gs_schools shape: (2168, 5) -----
+2025-04-29 19:17:11,653 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-29 19:17:17,309 - INFO - ----- fuzzy merged data shape: (1581, 16) -----
+2025-04-29 19:17:17,311 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-29 19:17:17,313 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merge_dups.csv' -----
+2025-04-29 19:17:17,313 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-29 19:17:17,325 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_dim_schools.csv' -----
+2025-04-29 19:17:55,045 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:17:55,539 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-29 19:17:55,564 - INFO - ----- gs_schools shape: (7865, 5) -----
+2025-04-29 19:17:55,565 - INFO - ----- filtered gs_schools shape: (2168, 5) -----
+2025-04-29 19:17:55,569 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-29 19:18:01,268 - INFO - ----- fuzzy merged data shape: (1581, 16) -----
+2025-04-29 19:18:01,270 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-29 19:18:01,272 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merge_dups.csv' -----
+2025-04-29 19:18:01,272 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-29 19:19:24,447 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:19:25,168 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-29 19:19:25,198 - INFO - ----- gs_schools shape: (7865, 5) -----
+2025-04-29 19:19:25,199 - INFO - ----- filtered gs_schools shape: (2168, 5) -----
+2025-04-29 19:19:25,203 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-29 19:19:30,802 - INFO - ----- fuzzy merged data shape: (1581, 16) -----
+2025-04-29 19:19:30,808 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-29 19:19:30,811 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merge_dups.csv' -----
+2025-04-29 19:19:30,811 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-29 19:19:30,824 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_dim_schools.csv' -----
+2025-04-29 19:22:38,695 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:22:39,208 - INFO - ----- nj_doe_schools_dim shape: (2582, 9) -----
+2025-04-29 19:22:39,232 - INFO - ----- gs_schools shape: (7865, 5) -----
+2025-04-29 19:22:39,233 - INFO - ----- filtered gs_schools shape: (2168, 5) -----
+2025-04-29 19:22:39,237 - INFO - ----- NAME_THRESHOLD = 60; ADDRESS_THRESHOLD = 60 -----
+2025-04-29 19:22:44,982 - INFO - ----- fuzzy merged data shape: (1581, 16) -----
+2025-04-29 19:22:44,984 - INFO - ----- duplicates (inclusive): 14 -----
+2025-04-29 19:22:44,986 - INFO - ----- duplicates are exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merge_dups.csv' -----
+2025-04-29 19:22:44,986 - INFO - ----- duplicates are not dropped (manual check required) -----
+2025-04-29 19:22:44,996 - INFO - ----- fuzzy merged data exported to '/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/great_schools/fuzzy_merged_dim_schools.csv' -----
+2025-04-29 19:31:14,629 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:31:15,462 - INFO - Dash app starting...
+2025-04-29 19:31:15,462 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:31:15,463 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 19:31:15,552 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:31:15,934 - INFO - Dash app starting...
+2025-04-29 19:31:15,934 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:31:23,258 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 19:31:23,317 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 19:31:23,369 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 19:31:23,418 - INFO - Merged enrollments with NJ DOE Data dimensions.
+2025-04-29 19:31:23,480 - INFO - Merged home language data.
+2025-04-29 19:31:23,481 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 19:34:53,306 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:34:54,031 - INFO - Dash app starting...
+2025-04-29 19:34:54,031 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:34:54,235 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 19:34:54,272 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 19:34:54,315 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 19:34:54,340 - INFO - Merged enrollments with NJ DOE Data dimensions.
+2025-04-29 19:34:54,381 - INFO - Merged home language data.
+2025-04-29 19:34:54,381 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 19:36:23,124 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:36:23,866 - INFO - Dash app starting...
+2025-04-29 19:36:23,866 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:36:35,537 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:36:36,241 - INFO - Dash app starting...
+2025-04-29 19:36:36,241 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:36:36,242 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 19:36:36,303 - INFO - ------- loaded '.env' variables -------
+2025-04-29 19:36:36,916 - INFO - Dash app starting...
+2025-04-29 19:36:36,916 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 19:36:41,391 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 19:36:41,443 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 19:36:41,494 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 19:36:41,536 - INFO - Merged enrollments with NJ DOE Data dimensions.
+2025-04-29 19:36:41,582 - INFO - Merged home language data.
+2025-04-29 19:36:41,583 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 19:36:58,076 - INFO - Data source selected: GS Merged Data. Loading data...
+2025-04-29 19:36:58,101 - INFO - Loaded GS Merged Data school dimensions.
+2025-04-29 19:36:58,161 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 19:36:58,166 - INFO - Merged enrollments with GS Merged Data dimensions.
+2025-04-29 19:36:58,190 - INFO - Merged home language data.
+2025-04-29 19:36:58,191 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:16:44,080 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:16:44,217 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:16:44,354 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:16:44,417 - INFO - Merged enrollments with NJ DOE Data dimensions.
+2025-04-29 20:16:44,479 - INFO - Merged home language data.
+2025-04-29 20:16:44,481 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:17:40,726 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:17:41,511 - INFO - Dash app starting...
+2025-04-29 20:17:41,511 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:17:56,445 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:17:57,198 - INFO - Dash app starting...
+2025-04-29 20:17:57,198 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:17:57,198 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 20:17:57,271 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:17:57,661 - INFO - Dash app starting...
+2025-04-29 20:17:57,662 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:18:07,429 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:18:07,495 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:18:07,550 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:18:07,586 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:18:07,621 - INFO - Merged home language data for academic plots.
+2025-04-29 20:18:07,622 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:18:53,172 - INFO - Data source selected: GS Merged Data. Loading data...
+2025-04-29 20:18:53,205 - INFO - Loaded GS Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:18:53,260 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:18:53,264 - INFO - Merged enrollments with GS Merged Data dimensions for academic plots.
+2025-04-29 20:18:53,286 - INFO - Merged home language data for academic plots.
+2025-04-29 20:18:53,286 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:23:03,744 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:23:03,768 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:23:03,850 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:23:03,857 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:23:03,894 - INFO - Merged home language data for academic plots.
+2025-04-29 20:23:03,894 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:23:24,048 - INFO - Data source selected: GS Merged Data. Loading data...
+2025-04-29 20:23:24,081 - INFO - Loaded GS Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:23:24,150 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:23:24,177 - INFO - Merged enrollments with GS Merged Data dimensions for academic plots.
+2025-04-29 20:23:24,237 - INFO - Merged home language data for academic plots.
+2025-04-29 20:23:24,237 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:25:46,846 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:25:47,523 - INFO - Dash app starting...
+2025-04-29 20:25:47,523 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:25:49,508 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:25:49,537 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:25:49,583 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:25:49,589 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:25:49,619 - INFO - Merged home language data for academic plots.
+2025-04-29 20:25:49,619 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:25:52,184 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:25:52,200 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:25:52,259 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:25:52,264 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:25:52,304 - INFO - Merged home language data for academic plots.
+2025-04-29 20:25:52,304 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:25:53,932 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:25:53,984 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:25:54,177 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:25:54,181 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:25:54,215 - INFO - Merged home language data for academic plots.
+2025-04-29 20:25:54,215 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:26:14,964 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:26:15,483 - INFO - Dash app starting...
+2025-04-29 20:26:15,483 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:26:15,615 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:26:15,627 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:26:15,673 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:26:15,677 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:26:15,705 - INFO - Merged home language data for academic plots.
+2025-04-29 20:26:15,705 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:26:17,173 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 595, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:26:54,096 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:26:54,648 - INFO - Dash app starting...
+2025-04-29 20:26:54,649 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:26:54,773 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:26:54,786 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:26:54,829 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:26:54,833 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:26:54,864 - INFO - Merged home language data for academic plots.
+2025-04-29 20:26:54,865 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:26:56,480 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 595, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:26:57,668 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:26:57,685 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:26:57,732 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:26:57,742 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:26:57,783 - INFO - Merged home language data for academic plots.
+2025-04-29 20:26:57,783 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:27:04,627 - INFO - Data source selected: Great Schools Merged Data. Loading data...
+2025-04-29 20:27:04,657 - INFO - Standardized Rating Band value counts:
+rating_band
+Below Average    625
+Above Average    479
+Average          477
+Name: count, dtype: int64
+2025-04-29 20:27:04,661 - INFO - Loaded Great Schools Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:27:04,720 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:27:04,724 - INFO - Merged enrollments with Great Schools Merged Data dimensions for academic plots.
+2025-04-29 20:27:04,745 - INFO - Merged home language data for academic plots.
+2025-04-29 20:27:04,746 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:28:46,706 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:28:46,737 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:28:46,796 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:28:46,801 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:28:46,831 - INFO - Merged home language data for academic plots.
+2025-04-29 20:28:46,831 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:08,595 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:29:09,152 - INFO - Dash app starting...
+2025-04-29 20:29:09,153 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:29:09,725 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:29:09,737 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:29:09,781 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:29:09,786 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:29:09,815 - INFO - Merged home language data for academic plots.
+2025-04-29 20:29:09,816 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:11,512 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:29:11,894 - INFO - Dash app starting...
+2025-04-29 20:29:11,894 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:29:12,737 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:29:12,752 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:29:12,799 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:29:12,804 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:29:12,833 - INFO - Merged home language data for academic plots.
+2025-04-29 20:29:12,833 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:14,686 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:29:14,776 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:29:14,842 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:29:14,853 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:29:14,895 - INFO - Merged home language data for academic plots.
+2025-04-29 20:29:14,895 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:18,825 - INFO - Data source selected: Great Schools Fuzzy Merged Data. Loading data...
+2025-04-29 20:29:18,843 - INFO - Standardized Rating Band value counts:
+rating_band
+Below Average    625
+Above Average    479
+Average          477
+Name: count, dtype: int64
+2025-04-29 20:29:18,845 - INFO - Loaded Great Schools Fuzzy Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:29:18,885 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:29:18,889 - INFO - Merged enrollments with Great Schools Fuzzy Merged Data dimensions for academic plots.
+2025-04-29 20:29:18,909 - INFO - Merged home language data for academic plots.
+2025-04-29 20:29:18,909 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:26,773 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:29:26,804 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:29:26,883 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:29:26,888 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:29:26,922 - INFO - Merged home language data for academic plots.
+2025-04-29 20:29:26,922 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:32,019 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:29:32,659 - INFO - Dash app starting...
+2025-04-29 20:29:32,659 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:29:32,855 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:29:32,871 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:29:32,916 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:29:32,921 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:29:32,954 - INFO - Merged home language data for academic plots.
+2025-04-29 20:29:32,954 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:29:35,118 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 595, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:30:00,421 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:30:00,943 - INFO - Dash app starting...
+2025-04-29 20:30:00,943 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:30:02,849 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:30:02,864 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:30:02,911 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:30:02,916 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:30:02,945 - INFO - Merged home language data for academic plots.
+2025-04-29 20:30:02,946 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:30:37,794 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:30:38,530 - INFO - Dash app starting...
+2025-04-29 20:30:38,530 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:30:38,531 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 20:30:38,590 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:30:38,977 - INFO - Dash app starting...
+2025-04-29 20:30:38,977 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:30:39,096 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:30:39,117 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:30:39,158 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:30:39,164 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:30:39,194 - INFO - Merged home language data for academic plots.
+2025-04-29 20:30:39,194 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:30:44,843 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:30:44,880 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:30:44,941 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:30:44,947 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:30:44,978 - INFO - Merged home language data for academic plots.
+2025-04-29 20:30:44,979 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:31:58,028 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:31:58,767 - INFO - Dash app starting...
+2025-04-29 20:31:58,767 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:31:58,767 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 20:31:58,823 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:31:59,203 - INFO - Dash app starting...
+2025-04-29 20:31:59,203 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:31:59,919 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:31:59,947 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:31:59,998 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:32:00,007 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:32:00,041 - INFO - Merged home language data for academic plots.
+2025-04-29 20:32:00,041 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:32:01,531 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 595, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:32:39,663 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:32:40,420 - INFO - Dash app starting...
+2025-04-29 20:32:40,420 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:32:40,421 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 20:32:40,479 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:32:40,859 - INFO - Dash app starting...
+2025-04-29 20:32:40,859 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:32:41,955 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:32:41,977 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:32:42,021 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:32:42,027 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:32:42,057 - INFO - Merged home language data for academic plots.
+2025-04-29 20:32:42,058 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:32:43,526 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 595, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:32:59,301 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:32:59,341 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:32:59,458 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:32:59,463 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:32:59,496 - INFO - Merged home language data for academic plots.
+2025-04-29 20:32:59,496 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:33:22,062 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:33:22,767 - INFO - Dash app starting...
+2025-04-29 20:33:22,767 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:33:22,768 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 20:33:22,827 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:33:23,210 - INFO - Dash app starting...
+2025-04-29 20:33:23,210 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:33:25,332 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:33:25,376 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:33:25,420 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:33:25,427 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:33:25,458 - INFO - Merged home language data for academic plots.
+2025-04-29 20:33:25,459 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:34:26,898 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:34:26,923 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:34:26,996 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:34:27,001 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:34:27,037 - INFO - Merged home language data for academic plots.
+2025-04-29 20:34:27,037 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:34:33,861 - INFO - Data source selected: Great Schools Fuzzy Merged Data. Loading data...
+2025-04-29 20:34:33,914 - INFO - Standardized Rating Band value counts:
+rating_band
+Below Average    625
+Above Average    479
+Average          477
+Name: count, dtype: int64
+2025-04-29 20:34:33,917 - INFO - Loaded Great Schools Fuzzy Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:34:33,966 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:34:33,970 - INFO - Merged enrollments with Great Schools Fuzzy Merged Data dimensions for academic plots.
+2025-04-29 20:34:33,992 - INFO - Merged home language data for academic plots.
+2025-04-29 20:34:33,992 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:39:01,545 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:39:02,294 - INFO - Dash app starting...
+2025-04-29 20:39:02,295 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:39:02,295 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 20:39:02,359 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:39:02,748 - INFO - Dash app starting...
+2025-04-29 20:39:02,748 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:39:03,015 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:39:03,032 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:39:03,085 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:39:03,092 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:39:03,131 - INFO - Merged home language data for academic plots.
+2025-04-29 20:39:03,131 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:39:10,016 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:39:10,058 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:39:10,112 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:39:10,117 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:39:10,149 - INFO - Merged home language data for academic plots.
+2025-04-29 20:39:10,150 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:39:15,171 - INFO - Data source selected: Great Schools Fuzzy Merged Data. Loading data...
+2025-04-29 20:39:15,193 - INFO - Standardized Rating Band value counts:
+rating_band
+Below Average    625
+Above Average    479
+Average          477
+Name: count, dtype: int64
+2025-04-29 20:39:15,195 - INFO - Loaded Great Schools Fuzzy Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:39:15,240 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:39:15,245 - INFO - Merged enrollments with Great Schools Fuzzy Merged Data dimensions for academic plots.
+2025-04-29 20:39:15,266 - INFO - Merged home language data for academic plots.
+2025-04-29 20:39:15,266 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:41:22,072 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:41:22,634 - INFO - Dash app starting...
+2025-04-29 20:41:22,634 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:41:22,767 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:41:22,789 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:41:22,830 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:41:22,834 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:41:22,863 - INFO - Merged home language data for academic plots.
+2025-04-29 20:41:22,864 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:41:51,729 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:41:52,240 - INFO - Dash app starting...
+2025-04-29 20:41:52,240 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:41:52,362 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:41:52,371 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:41:52,410 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:41:52,415 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:41:52,443 - INFO - Merged home language data for academic plots.
+2025-04-29 20:41:52,443 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:41:53,923 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 592, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:43:10,465 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:43:11,036 - INFO - Dash app starting...
+2025-04-29 20:43:11,036 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:43:13,114 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:43:13,131 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:43:13,173 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:43:13,178 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:43:13,206 - INFO - Merged home language data for academic plots.
+2025-04-29 20:43:13,206 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:43:14,733 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 591, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:43:36,826 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:43:37,358 - INFO - Dash app starting...
+2025-04-29 20:43:37,359 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:43:37,496 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:43:37,509 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:43:37,551 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:43:37,555 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:43:37,583 - INFO - Merged home language data for academic plots.
+2025-04-29 20:43:37,584 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:43:39,134 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 591, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:44:23,200 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:44:23,777 - INFO - Dash app starting...
+2025-04-29 20:44:23,777 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:44:25,082 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:44:25,092 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:44:25,140 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:44:25,148 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:44:25,178 - INFO - Merged home language data for academic plots.
+2025-04-29 20:44:25,178 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:44:26,817 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 588, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:44:26,817 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 588, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:47:46,833 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:47:47,547 - INFO - Dash app starting...
+2025-04-29 20:47:47,547 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:47:49,091 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:47:49,146 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:47:49,203 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:47:49,214 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:47:49,252 - INFO - Merged home language data for academic plots.
+2025-04-29 20:47:49,252 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:47:56,160 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:47:56,671 - INFO - Dash app starting...
+2025-04-29 20:47:56,671 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:47:58,162 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:47:58,175 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:47:58,219 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:47:58,224 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:47:58,254 - INFO - Merged home language data for academic plots.
+2025-04-29 20:47:58,254 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:47:59,822 - ERROR - Could not decode academic data from store.
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 586, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:48:00,076 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:48:00,087 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:48:00,143 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:48:00,150 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:48:00,184 - INFO - Merged home language data for academic plots.
+2025-04-29 20:48:00,184 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:48:03,475 - INFO - Data source selected: Great Schools Fuzzy Merged Data. Loading data...
+2025-04-29 20:48:03,503 - INFO - Loaded Great Schools Fuzzy Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:48:03,548 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:48:03,552 - INFO - Merged enrollments with Great Schools Fuzzy Merged Data dimensions for academic plots.
+2025-04-29 20:48:03,574 - INFO - Merged home language data for academic plots.
+2025-04-29 20:48:03,574 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:48:19,482 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:48:20,006 - INFO - Dash app starting...
+2025-04-29 20:48:20,006 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:48:21,134 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:48:21,145 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:48:21,185 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:48:21,190 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:48:21,217 - INFO - Merged home language data for academic plots.
+2025-04-29 20:48:21,218 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:50:39,738 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:50:40,374 - INFO - Dash app starting...
+2025-04-29 20:50:40,374 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:50:42,177 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:50:42,204 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:50:42,259 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:50:42,264 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:50:42,296 - INFO - Merged home language data for academic plots.
+2025-04-29 20:50:42,297 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:53:48,814 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:53:49,436 - INFO - Dash app starting...
+2025-04-29 20:53:49,436 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:53:51,161 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:53:51,178 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:53:51,222 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:53:51,227 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:53:51,258 - INFO - Merged home language data for academic plots.
+2025-04-29 20:53:51,258 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:54:49,402 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:54:49,946 - INFO - Dash app starting...
+2025-04-29 20:54:49,946 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:54:51,143 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:54:51,154 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:54:51,202 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:54:51,207 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:54:51,235 - INFO - Merged home language data for academic plots.
+2025-04-29 20:54:51,236 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:54:58,125 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:54:58,636 - INFO - Dash app starting...
+2025-04-29 20:54:58,636 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:55:00,118 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:55:00,130 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:55:00,178 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:55:00,188 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:55:00,226 - INFO - Merged home language data for academic plots.
+2025-04-29 20:55:00,226 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:55:01,951 - ERROR - Could not decode academic data from store: Invalid value
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 585, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 20:55:08,703 - INFO - Data source selected: Great Schools Fuzzy Merged Data. Loading data...
+2025-04-29 20:55:08,732 - INFO - Standardized Rating Band value counts:
+rating_band
+Below Average    625
+Above Average    479
+Average          477
+Name: count, dtype: int64
+2025-04-29 20:55:08,735 - INFO - Loaded Great Schools Fuzzy Merged Data school dimensions and prepared for rating plots.
+2025-04-29 20:55:08,782 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:55:08,786 - INFO - Merged enrollments with Great Schools Fuzzy Merged Data dimensions for academic plots.
+2025-04-29 20:55:08,809 - INFO - Merged home language data for academic plots.
+2025-04-29 20:55:08,810 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 20:56:25,147 - INFO - ------- loaded '.env' variables -------
+2025-04-29 20:56:25,697 - INFO - Dash app starting...
+2025-04-29 20:56:25,697 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 20:56:27,179 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 20:56:27,201 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 20:56:27,253 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 20:56:27,259 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 20:56:27,291 - INFO - Merged home language data for academic plots.
+2025-04-29 20:56:27,292 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 21:00:40,190 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:00:40,886 - INFO - Dash app starting...
+2025-04-29 21:00:40,886 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 21:00:40,886 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 21:00:40,946 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:00:41,332 - INFO - Dash app starting...
+2025-04-29 21:00:41,333 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 21:00:42,206 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 21:00:42,258 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 21:00:42,298 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 21:00:42,310 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 21:00:42,349 - INFO - Merged home language data for academic plots.
+2025-04-29 21:00:42,350 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 21:02:18,075 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:02:18,811 - INFO - Dash app starting...
+2025-04-29 21:02:18,811 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-04-29 21:02:18,868 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:02:19,253 - INFO - Dash app starting...
+2025-04-29 21:02:21,148 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 21:02:21,172 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 21:02:21,218 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 21:02:21,225 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 21:02:21,253 - INFO - Merged home language data for academic plots.
+2025-04-29 21:02:21,253 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 21:03:27,677 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:03:28,269 - INFO - Dash app starting...
+2025-04-29 21:03:30,147 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 21:03:30,162 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 21:03:30,371 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 21:03:30,388 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 21:03:30,436 - INFO - Merged home language data for academic plots.
+2025-04-29 21:03:30,437 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 21:03:41,569 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:03:42,085 - INFO - Dash app starting...
+2025-04-29 21:03:42,085 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 21:03:42,203 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 21:03:42,215 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 21:03:42,255 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 21:03:42,259 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 21:03:42,288 - INFO - Merged home language data for academic plots.
+2025-04-29 21:03:42,288 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 21:03:43,711 - ERROR - Could not decode academic data from store: Invalid value
+Traceback (most recent call last):
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/src/nj_doe_dash.py", line 577, in update_graphs
+    fig_trend = px.line(
+                ^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 270, in line
+    return make_figure(args=locals(), constructor=go.Scatter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2477, in make_figure
+    apply_default_cascade(args)
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1048, in apply_default_cascade
+    args["symbol_sequence"] = [
+                              ^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/express/_core.py", line 1049, in <listcomp>
+    scatter.marker.symbol for scatter in args["template"].data.scatter
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/graph_objs/scatter/_marker.py", line 1199, in symbol
+    return self["symbol"]
+           ~~~~^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4734, in __getitem__
+    elif self._props is not None and prop in self._props:
+         ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4443, in _get_child_props
+    if self._props is None:
+       ^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4429, in _props
+    return self.parent._get_child_props(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4463, in _get_child_props
+    child_ind = BaseFigure._index_is(children, child)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nebula/Documents/MS-DataScience/Spring-2025/MP(DS-700B)/NJ-HighSchool/.venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 3957, in _index_is
+    raise ValueError("Invalid value")
+ValueError: Invalid value
+2025-04-29 21:03:50,209 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:03:50,737 - INFO - Dash app starting...
+2025-04-29 21:03:50,737 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 21:03:51,152 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 21:03:51,166 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 21:03:51,221 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 21:03:51,226 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 21:03:51,258 - INFO - Merged home language data for academic plots.
+2025-04-29 21:03:51,259 - INFO - Data loaded and processed successfully. Updating filters and stores.
+2025-04-29 21:04:51,620 - INFO - ------- loaded '.env' variables -------
+2025-04-29 21:04:52,284 - INFO - Dash app starting...
+2025-04-29 21:04:52,284 - INFO - Access it at: http://127.0.0.1:8050
+2025-04-29 21:04:54,200 - INFO - Data source selected: NJ DOE Data. Loading data...
+2025-04-29 21:04:54,218 - INFO - Loaded NJ DOE Data school dimensions.
+2025-04-29 21:04:54,268 - INFO - Loaded fact tables (Enrollments, Home Language).
+2025-04-29 21:04:54,273 - INFO - Merged enrollments with NJ DOE Data dimensions for academic plots.
+2025-04-29 21:04:54,307 - INFO - Merged home language data for academic plots.
+2025-04-29 21:04:54,307 - INFO - Data loaded and processed successfully. Updating filters and stores.

@@ -1,9 +1,11 @@
 from rapidfuzz import process, fuzz
+import pandas.api.types as ptypes
 import pandas as pd
 
 from settings import nj_doe_data_dir, gs_data_dir
 from collections import defaultdict
 import logging
+import json
 import os
 
 NAME_THRESHOLD = 60
@@ -19,7 +21,7 @@ nj_doe_schools_dim["name_enc"] = nj_doe_schools_dim["school_name"].str.upper().r
 nj_doe_schools_dim["address_enc"] = nj_doe_schools_dim["school_address"].str.upper().replace(r'[ ,.-]', '', regex=True)
 nj_doe_schools_dim.drop(["street_address", "city", "state", "zipcode", "zipcode_extn"], axis=1, inplace=True)
 
-gs_schools = pd.read_csv(f"{gs_data_dir}/gs_school_ratings.csv", dtype=str)
+gs_schools = pd.read_csv(f"{gs_data_dir}/gs_school_ratings.csv")
 logging.info(f"----- gs_schools shape: {gs_schools.shape} -----")
 
 gs_schools.dropna(subset=["rating"], inplace=True)
@@ -57,7 +59,7 @@ common_schools = pd.DataFrame(matched_rows)
 common_schools.sort_values(["fuzzy_name_score", "fuzzy_address_score"], ascending=False, inplace=True)
 logging.info(f"----- fuzzy merged data shape: {common_schools.shape} -----")
 
-dups_fname = f"{gs_data_dir}/fuzzy_dups.csv"
+dups_fname = f"{gs_data_dir}/fuzzy_merge_dups.csv"
 if os.path.exists(dups_fname):
     os.remove(dups_fname)
 dups = common_schools[common_schools.duplicated(subset=["gs_school_link"], keep=False)]
@@ -72,5 +74,10 @@ if dups.shape[0] > 0:
 # common_schools.drop_duplicates(subset=["gs_school_link"], inplace=True, keep='first')
 logging.info(f"----- duplicates are not dropped (manual check required) -----")
 
-common_schools.to_csv(f"{gs_data_dir}/fuzzy_merged_schools.csv", index=False)
-logging.info(f"----- fuzzy merged data exported to '{gs_data_dir}/fuzzy_merged_schools.csv' -----")
+schema_dict = {col: ("string" if ptypes.is_object_dtype(dtype) else str(dtype)) for col, dtype in common_schools.dtypes.items()}
+
+with open(f'{gs_data_dir}/fuzzy_merged_dim_schools_schema.json', 'w') as f:
+    json.dump(schema_dict, f, indent=4)
+
+common_schools.to_csv(f"{gs_data_dir}/fuzzy_merged_dim_schools.csv", index=False)
+logging.info(f"----- fuzzy merged data exported to '{gs_data_dir}/fuzzy_merged_dim_schools.csv' -----")

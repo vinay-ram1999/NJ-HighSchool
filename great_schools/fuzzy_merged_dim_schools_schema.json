@@ -1,0 +1,18 @@
+{
+    "county_name": "string",
+    "district_name": "string",
+    "school_name": "string",
+    "county_district_school_code": "string",
+    "school_address": "string",
+    "name_enc": "string",
+    "address_enc": "string",
+    "gs_school_name": "string",
+    "gs_school_address": "string",
+    "gs_school_link": "string",
+    "rating_band": "string",
+    "rating": "float64",
+    "gs_name_enc": "string",
+    "gs_address_enc": "string",
+    "fuzzy_name_score": "float64",
+    "fuzzy_address_score": "float64"
+}
